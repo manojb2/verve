@@ -96,3 +96,11 @@ Error starting ApplicationContext. To display the condition evaluation report re
 2024-10-09 18:16:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2024-10-09 18:16:45 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
 2024-10-09 18:16:45 [http-nio-8080-exec-1] INFO  com.verve.verve.RequestService - Received a unique request with id: 125
+2024-10-09 18:19:22 [main] INFO  c.verve.verve.VerveApplicationTests - Starting VerveApplicationTests using Java 23 with PID 37874 (started by manojburdak in /Users/manojburdak/Documents/GitHub/verve)
+2024-10-09 18:19:22 [main] INFO  c.verve.verve.VerveApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-10-09 18:19:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 18:19:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 18:19:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2024-10-09 18:19:22 [main] INFO  c.verve.verve.VerveApplicationTests - Started VerveApplicationTests in 0.83 seconds (process running for 1.203)
+2024-10-09 18:19:22 [scheduling-1] INFO  com.verve.verve.RequestService - Cleaned up unique requests for unique-ids:2024-10-09T18:09:00
+2024-10-09 18:19:23 [scheduling-1] INFO  c.v.verve.RequestServiceWithRedis - Unique requests in minute unique-ids:2024-10-09T18:18: 0
